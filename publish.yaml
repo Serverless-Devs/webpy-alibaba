@@ -2,7 +2,7 @@ Type: Component
 Name: webpy
 Provider:
   - Alibaba
-Version: 0.0.2
+Version: 0.0.3
 Description: 阿里云WebPy组件，帮助您快速部署WebPy项目
 HomePage: https://www.aliyun.com/
 Tags:
