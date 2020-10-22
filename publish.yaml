@@ -2,7 +2,7 @@ Type: Component
 Name: webpy
 Provider:
   - Alibaba
-Version: 0.0.7
+Version: 0.0.8
 Description: 阿里云WebPy组件，帮助您快速部署WebPy项目
 HomePage: https://www.aliyun.com/
 Tags:
@@ -106,9 +106,18 @@ Properties:
   Environment:
     Required: false
     Description: 环境变量
-    Example: 'key: value'
     Type:
-      - Struct
+      - List<Struct>:
+          Key:
+            Required: false
+            Description: 环境变量Key
+            Type:
+              - String
+          Value:
+            Required: false
+            Description: 环境变量Value
+            Type:
+              - String
   Domains:
     Required: false
     Description: 自定义域名配置。

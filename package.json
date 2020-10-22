@@ -1,6 +1,6 @@
 {
   "name": "@serverless-devs/webpy-alibaba",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Serverless Devs Tool Tornado Framework Component For Alibaba Cloud",
   "keywords": [
     "Serverless",
@@ -9,7 +9,7 @@
     "Serverless-Tool",
     "WebPy"
   ],
-  "homepage": "https://www.serverlessfans.com",
+  "homepage": "https://www.serverless-devs.com",
   "author": "Serverless-Devs",
   "contributors": [
     "Anycodes"
