@@ -51,7 +51,7 @@ class TornadoComponent extends Framework {
     const formatStr = {
       port: Detail.Bootstrap ? Detail.Bootstrap.Port || DEFAULTPORT : DEFAULTPORT,
       start: Detail.Bootstrap ? Detail.Bootstrap.Start || DEFAULTSTART : DEFAULTSTART,
-      app: Detail.Bootstrap ? Detail.Bootstrap.App || inputs.Properties.App || DEFAULTAPP : DEFAULTAPP
+      app: Detail.Bootstrap ? Detail.Bootstrap.App || inputs.Properties.App || DEFAULTAPP : inputs.Properties.App || DEFAULTAPP
     };
     const bootstrapPath = Detail.Bootstrap ? Detail.Bootstrap.Path : undefined;
     if (bootstrapPath) {
