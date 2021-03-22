@@ -24,6 +24,7 @@
     "url": "https://github.com/ServerlessTool/webpy-alibaba"
   },
   "scripts": {
+    "build": "tsc -p compile.tsconfig.json",
     "watch": "tsc -w -p compile.tsconfig.json",
     "cd": "npm install --production && tsc -p compile.tsconfig.json && cp -r ./node_modules ./src",
     "release": "npm install --production && tsc -p compile.tsconfig.json && cp -r ./node_modules ./src && s platform publish"
