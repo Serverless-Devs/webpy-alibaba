@@ -2,7 +2,7 @@ Type: Component
 Name: webpy
 Provider:
   - 阿里云
-Version: 0.0.17
+Version: 0.0.18
 Description: 阿里云WebPy组件，帮助您快速部署WebPy项目
 HomePage: https://www.aliyun.com/
 Tags:
